@@ -1,0 +1,13 @@
+{
+    "name": "evandro/application-laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evandro Gardolin",
+            "email": "evandrogardolinn@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
