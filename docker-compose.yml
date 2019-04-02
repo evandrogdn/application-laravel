@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  application:
+    image: evandrogdn/docker-laravel
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - RUN_SCRIPTS=1
+      - SKIP_CHOWN=true
+      - PHP_MEM_LIMIT=256
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 80:80
